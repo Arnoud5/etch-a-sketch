@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(236, 236, 236);
-  color: rgb(62, 62, 62);
+  background-color: rgb(254, 247, 255);
+  color: rgb(40, 40, 40);
 }
 
 .title {
@@ -8,18 +8,39 @@ body {
   justify-content: center;
   font-size: 24px;
 }
+.title h1{
+  margin: 10px 0;
+}
 .canvas {
-    box-shadow: 10px 10px rgb(240, 201, 255);
+  box-shadow: 10px 10px rgb(215, 190, 225);
   padding: 5px;
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-  border: 1px solid rgb(46, 46, 46);
+  width: 480px;
+  height: 480px;
+  border: 1px solid #5d3760;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
-  column-gap: 0px;
+  gap: 0px;
 }
 .box {
   background-color: rgb(244, 244, 244);
-  border: 1px solid rgb(46, 46, 46);
+  border: 1px solid #5d3760;
+}
+.etch {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  margin: auto 0;
+}
+
+.left button {
+  display: flex;
+  width: 200px;
+  height: 50px;
+}
+
+.left button p {
+  font-size: 18px;
+  margin: auto auto;
 }
